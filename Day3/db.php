@@ -4,8 +4,8 @@ try {
 
 $connection = new PDO(
 "mysql:host=localhost;dbname=php_lab",
-"root",
-"root"
+"phpuser",
+"1234"
 );
 
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
