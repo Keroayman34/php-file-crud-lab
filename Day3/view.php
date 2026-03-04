@@ -36,6 +36,8 @@ $image = !empty($user['image']) ? $user['image'] : "uploads/default.png";
 
 <body class="bg-light">
 
+<?php include "includes/navbar.php"; ?>
+
 <div class="container mt-5">
 
 <div class="card p-4 shadow text-center">

@@ -14,6 +14,8 @@ include "db.php";
 
 <body class="bg-light">
 
+<?php include "includes/navbar.php"; ?>
+
 <div class="container mt-5">
 
 <div class="card shadow p-4">

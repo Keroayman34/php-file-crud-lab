@@ -51,7 +51,7 @@ Welcome <b><?= $_SESSION['username'] ?></b>
 </thead>
 
 <tbody>
-
+<?php include "includes/navbar.php"; ?>
 <?php
 
 while($row = $result->fetch(PDO::FETCH_ASSOC)){
