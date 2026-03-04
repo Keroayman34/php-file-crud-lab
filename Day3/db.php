@@ -1,19 +1,23 @@
 <?php
 
-require("auth/auth.php");
+$host = "127.0.0.1";
+$dbname = "php_lab";
+$username = "root";
+$password = "123456";
 
 try {
 
 $connection = new PDO(
-"mysql:host=localhost;dbname=php_lab",
-"phpuser",
-"1234"
+"mysql:host=$host;dbname=$dbname;charset=utf8",
+$username,
+$password
 );
 
 $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-} catch (PDOException $e) {
+} catch(PDOException $e) {
 
-echo $e->getMessage();
+die($e->getMessage());
 
 }
+?>

@@ -1,6 +1,7 @@
 <?php
 
-require("auth/auth.php");
+
+//require("auth/auth.php");
 include "db.php";
 
 $errors = [];
@@ -126,3 +127,5 @@ $imagePath
 header("Location: users.php");
 
 ?>
+
+

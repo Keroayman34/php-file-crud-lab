@@ -1,5 +1,7 @@
+
+
 <?php
-require("auth/auth.php");
+//require("auth/auth.php");
 include "db.php";
 ?>
 
